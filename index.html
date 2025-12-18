@@ -12,12 +12,15 @@
         .card:hover { transform: translateY(-15px); box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
         .btn-pink { background: #ff6b9d; border: none; color: white; padding: 12px 30px; border-radius: 50px; font-weight: bold; }
         .btn-pink:hover { background: #ff4d8d; }
-        #iletisim, footer { background: #333; color: white; padding: 80px 0; }
+        #iletisim { background: #333; color: white; padding: 80px 0; }
+        footer { background: #222; color: #ddd; padding: 50px 0; }
         h2.display-5, h3 { font-weight: bold; color: #ff6b9d; }
+        .footer-info { background: #ff9a9e; color: white; padding: 20px; border-radius: 15px; }
     </style>
 </head>
 <body>
 
+    <!-- Header -->
     <header class="text-center">
         <div class="container">
             <h1 class="display-3 fw-bold">Güzellik ve Bakım Merkezi</h1>
@@ -26,62 +29,47 @@
         </div>
     </header>
 
-    <!-- Hizmetler Bölümü -->
+    <!-- Hizmetler -->
     <section id="hizmetler" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5 display-5">Hizmetlerimiz</h2>
             <div class="row g-5">
-                <div class="col-md-4"><div class="card"><img src="https://wp.oggusto.com/wp-content/uploads/2022/12/image-55.png" alt="Cilt Bakımı" class="img-fluid rounded mb-4"><h3>Cilt Bakımı</h3><p>Derin temizlik ve anti-aging.</p><a href="#" class="btn btn-pink">Randevu Al</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://m.media-amazon.com/images/I/61HLIa8DzNL._AC_UF1000,1000_QL80_.jpg" alt="Makyaj" class="img-fluid rounded mb-4"><h3>Makyaj</h3><p>Özel gün makyajları.</p><a href="#" class="btn btn-pink">İncele</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://www.buseterim.com.tr/upload/default/2019/4/11/ypranmssaclaricinbakm680.jpg" alt="Masaj" class="img-fluid rounded mb-4"><h3>Masaj & Spa</h3><p>Rahatlama seansları.</p><a href="#" class="btn btn-pink">Randevu Al</a></div></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://st4.depositphotos.com/8214686/41566/i/950/depositphotos_415665452-stock-photo-beautiful-woman-has-a-facial.jpg" alt="Cilt Bakımı" class="img-fluid rounded mb-4">
+                        <h3>Cilt Bakımı</h3>
+                        <p>Derin temizlik, nemlendirme ve anti-aging tedaviler.</p>
+                        <a href="#" class="btn btn-pink">Randevu Al</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-v4evDjBKzAz0VLrH2Ba9h3za-IH8hCmZ554jssREHidK1RoiH75ZSrYlZc1DVdr_apj4L3mAsDlJXm6d8-5WWNITKW9qoKnsaCUuljZN-ZSpXZeVwgnTI4vN_AaUEb-3kCnowM6vg0ZWouu5O2lhcTtQsD6oWLMfSFSEMahVWRh15KquJVGqw1InORY/s1280/GelinMakyaji2024Kapak.png" alt="Makyaj" class="img-fluid rounded mb-4">
+                        <h3>Profesyonel Makyaj</h3>
+                        <p>Gelin, nişan ve özel gün makyajları.</p>
+                        <a href="#" class="btn btn-pink">İncele</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/946744616/tr/fotoğraf/genç-güzel-asyalı-kadın-yağ-spa-masaj-rahatlatıcı.jpg?s=1024x1024&w=is&k=20&c=ysf33Wut-bpM4goBKMhWf7mkXbHF8GFb5ayCVdhHZ2A=" alt="Masaj" class="img-fluid rounded mb-4">
+                        <h3>Masaj & Spa</h3>
+                        <p>Rahatlama ve aromaterapi seansları.</p>
+                        <a href="#" class="btn btn-pink">Randevu Al</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Ürünler Bölümü (جديد مع عطور وإكسسوارات) -->
+    <!-- Ürünler (صور جديدة شغالة) -->
     <section id="urunler" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-5 display-5">Ürünlerimiz</h2>
-
-            <!-- Cilt Bakımı Ürünleri -->
-            <h3 class="text-center mb-4">Cilt Bakımı</h3>
             <div class="row g-5">
-                <div class="col-md-4"><div class="card"><img src="https://www.buseterim.com.tr/upload/default/2021/4/19/antioksidan680.jpg" alt="Serum" class="img-fluid rounded mb-4"><h4>Antioksidan Serum</h4><p>Cildi yenileyen formül.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://www.buseterim.com.tr/upload/default/2020/9/29/liftingnemlendirici680.jpg" alt="Krem" class="img-fluid rounded mb-4"><h4>Lifting Krem</h4><p>Sıkılaştırıcı etki.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://media.istockphoto.com/id/1236853830/tr/fotoğraf/krem-kavanoz-doğal-taş-üzerinde-serum-sarı-arka-plan-üst-görünümü-doğal-kozmetik-ve-cilt.jpg?s=612x612&w=0&k=20&c=fOTxg9q_7rumPflnqJATlaHqjZNsB7-GVE7WjPkQimE=" alt="Krem" class="img-fluid rounded mb-4"><h4>Nemlendirici Krem</h4><p>Doğal içerikli.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-            </div>
-
-            <!-- Parfüm Bölümü (عطور جديدة) -->
-            <h3 class="text-center mb-4 mt-5">Parfüm Koleksiyonu</h3>
-            <div class="row g-5">
-                <div class="col-md-4"><div class="card"><img src="https://m.media-amazon.com/images/I/71g8dD4c2EL._AC_UF1000,1000_QL80_.jpg" alt="Parfüm 1" class="img-fluid rounded mb-4"><h4>Çiçeksi Bahar Parfümü</h4><p>Taze ve ferah koku.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://m.media-amazon.com/images/I/61Q9Z9vJ+PL._AC_UF1000,1000_QL80_.jpg" alt="Parfüm 2" class="img-fluid rounded mb-4"><h4>Oryantal Gece Parfümü</h4><p>Büyüleyici ve kalıcı.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://m.media-amazon.com/images/I/71fB4iLZh8L._AC_UF1000,1000_QL80_.jpg" alt="Parfüm 3" class="img-fluid rounded mb-4"><h4>Citrus Fresh Parfüm</h4><p>Enerjik narenciye notaları.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-            </div>
-
-            <!-- Aksesuar Bölümü (إكسسوارات جديدة) -->
-            <h3 class="text-center mb-4 mt-5">Aksesuar Koleksiyonu</h3>
-            <div class="row g-5">
-                <div class="col-md-4"><div class="card"><img src="https://m.media-amazon.com/images/I/71s2pG2qMGL._AC_UF1000,1000_QL80_.jpg" alt="Kolye" class="img-fluid rounded mb-4"><h4>İncili Kolye</h4><p>Zarif tasarım.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://m.media-amazon.com/images/I/71vZ8v9U1ZL._AC_UF1000,1000_QL80_.jpg" alt="Çanta" class="img-fluid rounded mb-4"><h4>Deri El Çantası</h4><p>Klasik ve şık.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-                <div class="col-md-4"><div class="card"><img src="https://m.media-amazon.com/images/I/61f6v8p3nGL._AC_UF1000,1000_QL80_.jpg" alt="Gözlük" class="img-fluid rounded mb-4"><h4>UV Korumalı Güneş Gözlüğü</h4><p>Modaya uygun.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- İletişim Bölümü (كما هي) -->
-    <section id="iletisim">
-        <div class="container">
-            <h2 class="text-center mb-5 display-5">İletişim</h2>
-            <!-- الفورم اللي موجود -->
-        </div>
-    </section>
-
-    <footer class="text-center">
-        <div class="container">
-            <p class="mb-0">&copy; 2025 Güzellik ve Bakım Merkezi</p>
-        </div>
-    </footer>
-
-</body>
-</html>
+                <!-- Cilt Bakımı -->
+                <div class="col-md-4"><div class="card"><img src="https://static.ticimax.cloud/13678/uploads/urunresimleri/buyuk/antiaging-serum---50-ml.----7792.jpg" alt="Serum" class="img-fluid rounded mb-4"><h4>Antioksidan Serum</h4><p>Cildi yenileyen formül.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
+                <!-- Parfüm -->
+                <div class="col-md-4"><div class="card"><img src="https://www.buseterim.com.tr/upload/default/2021/8/31/680parfum.jpg" alt="Parfüm" class="img-fluid rounded mb-4"><h4>Lüks Parfüm Koleksiyonu</h4><p>Büyüleyici kokular.</p><a href="siparis.html" class="btn btn-pink">Satın Al</a></div></div>
+                <!-- Aksesuar -->
+                <div class="col-md-4"><div class="card"><img src="https://image.hurimg.com/i/hurriyet/90/750x422/58189f0a0f254418fc42a361.jpg" alt="Güneş Gözlüğü" class="img-fluid rounded mb-4
