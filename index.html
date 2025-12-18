@@ -8,15 +8,16 @@
     <style>
         body { background: #fff5f8; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         header { background: linear-gradient(135deg, #ff9a9e, #fad0c4); color: white; padding: 100px 0; }
-        .service-card { background: white; border-radius: 20px; padding: 30px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); text-align: center; transition: all 0.3s ease; }
-        .service-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.15); }
+        .service-card, .product-card { background: white; border-radius: 20px; padding: 30px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); text-align: center; transition: all 0.3s ease; }
+        .service-card:hover, .product-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.15); }
         .btn-pink { background: #ff6b9d; border: none; color: white; }
         .btn-pink:hover { background: #ff4d8d; color: white; }
-        footer { background: #333; color: white; padding: 30px 0; }
+        #contact, footer { background: #333; color: white; padding: 60px 0; }
     </style>
 </head>
 <body>
 
+    <!-- Header -->
     <header class="text-center">
         <div class="container">
             <h1 class="display-4 fw-bold">Güzellik ve Bakım Merkezi</h1>
@@ -25,27 +26,146 @@
         </div>
     </header>
 
+    <!-- Hizmetler -->
     <section id="hizmetler" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5 display-5">Hizmetlerimiz</h2>
             <div class="row g-5">
-
                 <div class="col-md-4">
                     <div class="service-card">
                         <img src="https://wp.oggusto.com/wp-content/uploads/2022/12/image-55.png" alt="Cilt Bakımı" class="img-fluid rounded mb-4">
                         <h3>Cilt Bakımı</h3>
-                        <p>Nemlendirme, derin temizlik, anti-aging ve özel cilt tedavileri.</p>
+                        <p>Nemlendirme, derin temizlik, anti-aging tedaviler.</p>
                         <a href="#" class="btn btn-pink">Randevu Al</a>
                     </div>
                 </div>
-
                 <div class="col-md-4">
                     <div class="service-card">
-                        <img src="https://media.istockphoto.com/id/1197103390/tr/foto%C4%9Fraf/profesyonel-makyaj-ile-muhte%C5%9Fem-kad%C4%B1n.jpg?s=170667a&w=0&k=20&c=ZUtP45xqNdE5F2mllDfcL1t-T0kM8WYdVURSaMWE7qA=" alt="Makyaj" class="img-fluid rounded mb-4">
+                        <img src="https://m.media-amazon.com/images/I/61HLIa8DzNL._AC_UF1000,1000_QL80_.jpg" alt="Makyaj" class="img-fluid rounded mb-4">
                         <h3>Profesyonel Makyaj</h3>
-                        <p>Günlük, gelin, nişan ve özel gün makyajları.</p>
+                        <p>Gelin, nişan ve özel gün makyajları.</p>
                         <a href="#" class="btn btn-pink">İncele</a>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="https://www.buseterim.com.tr/upload/default/2019/4/11/ypranmssaclaricinbakm680.jpg" alt="Masaj ve Spa" class="img-fluid rounded mb-4">
+                        <h3>Masaj & Spa</h3>
+                        <p>Rahatlama ve aromaterapi seansları.</p>
+                        <a href="#" class="btn btn-pink">Randevu Al</a>
+                    </div>
+                </div>
+                <!-- Daha fazla hizmet istersen buraya ekleyebiliriz -->
+            </div>
+        </div>
+    </section>
 
-                <div class="
+    <!-- Ürünlerimiz Bölümü (Yeni ve Daha Fazla Ürün) -->
+    <section id="urunler" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 display-5">Ürünlerimiz</h2>
+            <p class="text-center lead mb-5">Doğal ve profesyonel bakım ürünleri ile evde de güzelliğinizi koruyun</p>
+            <div class="row g-5">
+
+                <!-- Cilt Bakımı Ürünleri -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://www.buseterim.com.tr/upload/default/2021/4/19/antioksidan680.jpg" alt="Antioksidan Serum" class="img-fluid rounded mb-4">
+                        <h4>Antioksidan Serum</h4>
+                        <p>Cildi yenileyen güçlü formül.</p>
+                        <a href="#" class="btn btn-pink">Satın Al</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://www.buseterim.com.tr/upload/default/2020/9/29/liftingnemlendirici680.jpg" alt="Lifting Krem" class="img-fluid rounded mb-4">
+                        <h4>Lifting Etkili Krem</h4>
+                        <p>Sıkılaştırıcı ve gençleştirici.</p>
+                        <a href="#" class="btn btn-pink">Satın Al</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://media.istockphoto.com/id/1236853830/tr/foto%C4%9Fraf/krem-kavanoz-do%C4%9Fal-ta%C5%9F-%C3%BCzerinde-serum-sar%C4%B1-arka-plan-%C3%BCst-g%C3%B6r%C3%BCn%C3%BCm%C3%BC-do%C4%9Fal-kozmetik-ve-cilt.jpg?s=612x612&w=0&k=20&c=fOTxg9q_7rumPflnqJATlaHqjZNsB7-GVE7WjPkQimE=" alt="Doğal Krem" class="img-fluid rounded mb-4">
+                        <h4>Doğal Nemlendirici Krem</h4>
+                        <p>Bitkisel içerikli günlük bakım.</p>
+                        <a href="#" class="btn btn-pink">Satın Al</a>
+                    </div>
+                </div>
+
+                <!-- Makyaj Ürünleri -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1527095794193009" alt="Far ve Ruj Paleti" class="img-fluid rounded mb-4">
+                        <h4>Profesyonel Far & Ruj Paleti</h4>
+                        <p>88 renk far + 32 ruj seti.</p>
+                        <a href="#" class="btn btn-pink">Satın Al</a>
+                    </div>
+                </div>
+
+                <!-- Saç Bakım Ürünleri -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://www.markafarma.com/elseve-hydra-hyaluronic-nem-ile-dolgunlastiran-sac-bakim-seti-sampuan-sac-bakim-kremi-serum-maske-15942-90-B.jpg" alt="Saç Bakım Seti" class="img-fluid rounded mb-4">
+                        <h4>Nemlendirici Saç Bakım Seti</h4>
+                        <p>Şampuan + maske + serum.</p>
+                        <a href="#" class="btn btn-pink">Satın Al</a>
+                    </div>
+                </div>
+
+                <!-- Tırnak Bakım Ürünleri -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://m.media-amazon.com/images/I/61SMXHi6WdL._AC_UF1000,1000_QL80_.jpg" alt="Oje ve Tırnak Seti" class="img-fluid rounded mb-4">
+                        <h4>Manikür Pedikür Oje Seti</h4>
+                        <p>Renkli ojeler ve bakım ürünleri.</p>
+                        <a href="#" class="btn btn-pink">Satın Al</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü (Yeni) -->
+    <section id="iletisim">
+        <div class="container">
+            <h2 class="text-center mb-5 display-5">İletişim</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="ad" class="form-label">Adınız Soyadınız</label>
+                            <input type="text" class="form-control" id="ad" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-posta Adresiniz</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mesaj" class="form-label">Mesajınız</label>
+                            <textarea class="form-control" id="mesaj" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-pink btn-lg">Mesaj Gönder</button>
+                        </div>
+                    </form>
+                    <div class="text-center mt-5">
+                        <p><strong>Telefon:</strong> 0555 123 45 67</p>
+                        <p><strong>E-posta:</strong> info@guzellikmerkezi.com</p>
+                        <p><strong>Adres:</strong> Güzellik Caddesi No: 123, İstanbul</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Güzellik ve Bakım Merkezi. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
